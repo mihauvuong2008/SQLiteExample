@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/xem_chude_item_contextmenu"
+        android:icon="@mipmap/add"
+        android:title="Xem Chủ đề" />
+    <item
+        android:id="@+id/them_chude_item_contextmenu"
+        android:title="Thêm Chủ đề" />
+    <item
+        android:id="@+id/thay_doi_chude_item_contextmenu"
+        android:title="Thay đổi" />
+    <item
+        android:id="@+id/xoa_chude_item_contextmenu"
+        android:title="Xóa" />
+</menu>

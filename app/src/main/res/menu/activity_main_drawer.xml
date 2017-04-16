@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_topic"
+            android:icon="@drawable/share"
+            android:title="CHỦ ĐỀ" />
+        <item
+            android:id="@+id/nav_dictionary"
+            android:icon="@mipmap/searchingmagnifyingglass"
+            android:title="TỪ VỰNG" />
+        <item
+            android:id="@+id/nav_training"
+            android:icon="@mipmap/gymnastgirl"
+            android:title="LUYỆN TẬP" />
+        <item
+            android:id="@+id/nav_addword"
+            android:icon="@mipmap/add"
+            android:title="THÊM MỚI" />
+    </group>
+
+    <item android:title="personal">
+        <menu>
+            <item
+                android:id="@+id/nav_hightscore"
+                android:icon="@drawable/select"
+                android:title="THÀNH TÍCH" />
+            <item
+                android:id="@+id/nav_myfavcollection"
+                android:icon="@drawable/select"
+                android:title="SƯU TẬP" />
+            <item
+                android:id="@+id/nav_setting"
+                android:icon="@drawable/select"
+                android:title="CÀI ĐẶT" />
+        </menu>
+    </item>
+
+</menu>
